@@ -22,3 +22,7 @@ cd frontend
 npm install
 npm run dev
 
+## 📅 Day 2 Progress
+- Added basic folder structure (components, pages, layouts)
+- Created Header component
+
