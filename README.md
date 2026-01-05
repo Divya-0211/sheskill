@@ -57,7 +57,7 @@ This project is being developed as part of a learning-oriented initiative and wi
 
 ## 👩‍💻 Developed By
 
-Divyasri
+Divyasri V
 Frontend Developer (React)
 
 ## 🚀 How to Run (Frontend)
