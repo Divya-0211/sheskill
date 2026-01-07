@@ -1,6 +1,6 @@
 import React from "react";
 
-function Admin =() =>{
+function Admin(){
     return (
         <div style={{ padding:"2rem"}}>
         <h2>Admin Dashboard</h2>
