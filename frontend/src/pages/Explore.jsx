@@ -1,39 +1,51 @@
-function Explore (){
-    const talents=[
-        {
-            name:"Anjali",
-            skill:"Graphic Designer",
-            description:"Logo and Social media designing"
+import React from "react";
 
-        },
-        {
-            name:"Reshma",
-            skill:"Web Developer",
-            description:"Create a websites using React"
-        },
-        {
-            name:"Kanishka",
-            skill:"Content-Writer",
-            description:"Blog and Social media content writer"
-        },
-        {
-            name:"Divyasri",
-            skill:"Speaker",
-            description:"Nice speaking skill has 4+ language knowledge"
+const talents=[
+    {
+        name:"Ananya Rishikumar",
+        photo:"https://randomuser.me/api/portraits/women/11.jpg",
+        skill:"Graphic Designer"
+    },
+    {
+        name:"Reshma Dinesh",
+        photo:"https://randomuser.me/api/portraits/women/95.jpg",
+        skill:"Photographer"
+    },
+    {
+        name:"Priya Kannan",
+        photo:"https://randomuser.me/api/portraits/women/15.jpg",
+        skill:"Social Worker"
+    }
+];
 
-        }
-    ];
-    return(
-        <div>
+const Explore = () => {
+    return (
+        <div style={{padding:"2rem"}}>
             <h2>Explore Talents</h2>
-            {talents.map((talent,index) => (
-                <div key={index} style={{ border: "1px solid #ccc", padding: "10px", marginBottom: "10px" }}>
-                    <h2>{talent.name}</h2>
-                    <p><strong>Skill:</strong>{talent.skill}</p>
-                    <p>{talent.description}</p>
-                </div>
-            ))}
-        </div>
-    );
-}
+            <div  style={{ display: "flex", gap: "1rem", flexWrap: "wrap" }}>
+                {talents.map((talent, idx) => (
+          <div
+            key={idx}
+            style={{
+              border: "1px solid #ccc",
+              borderRadius: "8px",
+              padding: "1rem",
+              width: "200px",
+              textAlign: "center",
+              boxShadow: "0px 2px 5px rgba(0,0,0,0.1)"
+            }}
+          >
+            <img
+              src={talent.photo}
+              alt={talent.name}
+              style={{ width: "100px", borderRadius: "50%" }}
+            />
+            <h3>{talent.name}</h3>
+            <p>{talent.skill}</p>
+          </div>
+        ))}
+      </div>
+    </div>
+  );
+};
 export default Explore;
