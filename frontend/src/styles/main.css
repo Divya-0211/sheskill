@@ -1,0 +1,147 @@
+body {
+margin: 0;
+  background-color: #fdf2f8;
+  font-family: Arial, sans-serif;
+}
+nav {
+  background: white;
+  padding: 12px;
+  border-bottom: 1px solid #ddd;
+}
+
+nav a {
+  margin-right: 15px;
+  text-decoration: none;
+  color: #333;
+  font-weight: 500;
+}
+
+nav a:hover {
+  color: #d946ef;
+}
+
+.app-container {
+  padding: 20px;
+}
+
+/* Header */
+.header {
+  background-color: #ec4899;
+  color: white;
+  padding: 15px 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header a {
+  color: white;
+  margin-left: 15px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.header a:hover {
+  text-decoration: underline;
+}
+
+/* Cards */
+.card {
+  background: white;
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+.page {
+  padding: 2rem;
+}
+
+.page-title {
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.page-subtitle {
+  color: #666;
+  margin-bottom: 1.5rem;
+}
+
+.card-grid {
+  display: flex;
+  gap: 1.5rem;
+  flex-wrap: wrap;
+}
+
+.card {
+  width: 200px;
+  background: white;
+  border-radius: 10px;
+  padding: 1rem;
+  text-align: center;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+}
+
+.card img {
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.card h3 {
+  margin: 0.5rem 0 0.2rem;
+}
+
+.skill {
+  color: #d946ef;
+  font-weight: 500;
+}
+
+.profile-card {
+  max-width: 320px;
+  background: white;
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  text-align: center;
+}
+
+.profile-card img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.bio {
+  margin-top: 1rem;
+  color: #555;
+  font-size: 14px;
+}
+
+.app-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 14px 24px;
+  background-color: white;
+  border-bottom: 1px solid #e5e7eb;
+}
+
+.logo {
+  font-size: 22px;
+  font-weight: 700;
+  color: #d946ef;
+  margin: 0;
+}
+
+.app-header nav a {
+  margin-left: 20px;
+  text-decoration: none;
+  color: #333;
+  font-weight: 500;
+}
+
+.app-header nav a:hover {
+  color: #d946ef;
+}

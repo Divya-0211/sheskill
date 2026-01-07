@@ -1,33 +1,24 @@
-function Profile (){
-    const user= {
-        name:"Divyasri",
-        photo:"https://randomuser.me/api/portraits/women/43.jpg",
-        title:"Frontend Developer",
-        bio:"Passionate about building user-friendly web applications",
-        skills:["React","JavaScript","HTML","CSS"]
-    };
-    return (
-        <div style={{padding:"2renm"}}>
-            <h2>My Profile</h2>
+function Profile() {
+  return (
+    <div className="page">
+      <h2 className="page-title">My Profile</h2>
 
-            <div>
-                <img 
-                src={user.photo}
-                alt={user.name}
-                style={{width:"120px",borderRadius:"50%"}}
-                />
-                <h3>{user.name}</h3>
-                <p><strong>{user.title}</strong> </p>
-                <p>{user.bio}</p>
+      <div className="profile-card">
+        <img
+          src="https://randomuser.me/api/portraits/women/33.jpg"
+          alt="Profile"
+        />
 
-                <h4>Skills</h4>
-                <ul>
-                    {user.skills.map((skill,index)=>(
-                        <li key={index}>{skill}</li>
-                    ))}
-                </ul>
-            </div>
-        </div>
-    );
+        <h3>Divyasri</h3>
+        <p className="skill">Web Developer</p>
+
+        <p className="bio">
+          Passionate about building meaningful digital platforms
+          that empower women.
+        </p>
+      </div>
+    </div>
+  );
 }
+
 export default Profile;

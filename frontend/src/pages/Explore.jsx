@@ -15,37 +15,33 @@ const talents=[
         name:"Priya Kannan",
         photo:"https://randomuser.me/api/portraits/women/15.jpg",
         skill:"Social Worker"
+    },
+    {
+      name:"Jennifer Aasirvadham",
+      photo:"https://randomuser.me/api/portraits/women/19.jpg",
+      skill:"Content-Creator"
     }
 ];
 
-const Explore = () => {
-    return (
-        <div style={{padding:"2rem"}}>
-            <h2>Explore Talents</h2>
-            <div  style={{ display: "flex", gap: "1rem", flexWrap: "wrap" }}>
-                {talents.map((talent, idx) => (
-          <div
-            key={idx}
-            style={{
-              border: "1px solid #ccc",
-              borderRadius: "8px",
-              padding: "1rem",
-              width: "200px",
-              textAlign: "center",
-              boxShadow: "0px 2px 5px rgba(0,0,0,0.1)"
-            }}
-          >
-            <img
-              src={talent.photo}
-              alt={talent.name}
-              style={{ width: "100px", borderRadius: "50%" }}
-            />
+function Explore() {
+  return (
+    <div className="page">
+      <h2 className="page-title">Explore Talents</h2>
+      <p className="page-subtitle">
+        Discover inspiring women and their skills
+      </p>
+
+      <div className="card-grid">
+        {talents.map((talent, index) => (
+          <div className="card" key={index}>
+            <img src={talent.photo} alt={talent.name} />
             <h3>{talent.name}</h3>
-            <p>{talent.skill}</p>
+            <p className="skill">{talent.skill}</p>
           </div>
         ))}
       </div>
     </div>
   );
-};
+}
+
 export default Explore;

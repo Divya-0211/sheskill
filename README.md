@@ -16,32 +16,32 @@ To empower women by giving them a platform to share their skills, connect safely
 - Database: MongoDB (planned)
 
 ## ✨ Features (Current Progress)
-- ✅ Day 1 – Project Setup
-     - GitHub repository creation
-     - React project setup using Vite
-     - Clean folder structure
-     - Basic understanding of project flow
+     ## Day 1
+- Project idea finalized (SheSkill)
+- GitHub repository created
+- React + Vite setup
 
-- ✅ Day 2 – Page Structure & Flow
-     - Created main pages:
-     - Home
-     - Explore
-     - Profile
-     - Understood component flow:
-     - main.jsx → App.jsx → Pages
-     - Clean separation of pages and components
+## Day 2
+- Folder structure planned
+- Pages created (Home, Explore, Profile)
 
-- ✅ Day 3 – Routing & Navigation
-     - Implemented React Router
-     - Page navigation without reload
-     - Header with navigation links
-     - URL-based page switching
-     
-- ✅ Day 4 – Explore Page (Core Feature)
-     - Static talent showcase cards
-     - Display of multiple women talents
-     - Simulated backend data using static arrays
-     - Improved visual understanding of platform purpose
+## Day 3
+- React Router integrated
+- Page navigation implemented
+
+## Day 4
+- Header component created
+- Navigation links added
+
+## Day 5
+- Explore page talent cards added
+- Static data structure prepared
+
+## Day 6
+- Global CSS setup
+- Layout styling added
+- Debugging and fixes completed
+
 
 ## 🔮 Future Enhancements
     - Women-only authentication
