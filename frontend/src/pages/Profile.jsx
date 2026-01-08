@@ -1,24 +1,29 @@
+import React from "react";
+import "../styles/profile.css"
+
 function Profile() {
   return (
-    <div className="page">
-      <h2 className="page-title">My Profile</h2>
-
+    <div className="profile-container">
       <div className="profile-card">
         <img
           src="https://randomuser.me/api/portraits/women/33.jpg"
           alt="Profile"
         />
-
-        <h3>Divyasri</h3>
-        <p className="skill">Web Developer</p>
-
+        <h2>Divyasri</h2>
+        <p className="role">Aspring Web Developer</p>
+        <div className="skills">
+          <span>React</span>
+          <span>UI Design</span>
+          <span>CSS</span>
+        </div>
         <p className="bio">
           Passionate about building meaningful digital platforms
           that empower women.
         </p>
+        <button>Edit Profile</button>
       </div>
-    </div>
+      </div>
   );
-}
+};
 
 export default Profile;
