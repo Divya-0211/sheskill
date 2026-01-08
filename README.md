@@ -16,7 +16,7 @@ To empower women by giving them a platform to share their skills, connect safely
 - Database: MongoDB (planned)
 
 ## ✨ Features (Current Progress)
-     ## Day 1
+ ## Day 1
 - Project idea finalized (SheSkill)
 - GitHub repository created
 - React + Vite setup
@@ -41,6 +41,13 @@ To empower women by giving them a platform to share their skills, connect safely
 - Global CSS setup
 - Layout styling added
 - Debugging and fixes completed
+
+## Day 7 – UI Polish
+- Enhanced Explore page with responsive card layout
+- Designed Profile page with user details and skills
+- Added hover effects and consistent color theme
+- Improved overall UI to give app-like experience
+
 
 
 ## 🔮 Future Enhancements
