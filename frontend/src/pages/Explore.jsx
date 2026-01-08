@@ -1,4 +1,5 @@
 import React from "react";
+import "../styles/explore.css";
 
 const talents=[
     {
@@ -25,23 +26,21 @@ const talents=[
 
 function Explore() {
   return (
-    <div className="page">
-      <h2 className="page-title">Explore Talents</h2>
-      <p className="page-subtitle">
-        Discover inspiring women and their skills
-      </p>
+    <div className="explore-container">
+      <h2 className="explore-title">Explore Talents</h2>
 
       <div className="card-grid">
-        {talents.map((talent, index) => (
-          <div className="card" key={index}>
-            <img src={talent.photo} alt={talent.name} />
+        {talents.map((talent,index) =>(
+          <div className="talent-card" key={index}>
+            <img src={talent.photo} alt={talent.name}/>
             <h3>{talent.name}</h3>
-            <p className="skill">{talent.skill}</p>
-          </div>
-        ))}
+            <p>{talent.skill}</p>
+            <button>View Profile</button>
+            </div>
+          ))}
       </div>
     </div>
   );
-}
+};
 
 export default Explore;
