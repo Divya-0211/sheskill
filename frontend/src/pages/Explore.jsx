@@ -21,6 +21,11 @@ const talents=[
       name:"Jennifer Aasirvadham",
       photo:"https://randomuser.me/api/portraits/women/19.jpg",
       skill:"Content-Creator"
+    },
+    {
+      name:"Vishva Mithra",
+      photo:"https://randomuser.me/api/portraits/women/40.jpg",
+      skill:"Social Media Manager"
     }
 ];
 
