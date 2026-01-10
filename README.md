@@ -56,9 +56,6 @@ To empower women by giving them a platform to share their skills, connect safely
 - Video represents transformation of women gaining confidence through SheSkill
 - Focused on safety, empowerment, and responsible community building
 
-
-
-
 ## 🔮 Future Enhancements
     - Women-only authentication
     - Skill posting & editing
