@@ -1,17 +1,19 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import Header from "./components/Headers";
-import Home from "./pages/Home";
+import Home from "./pages/home";
 import Explore from "./pages/Explore";
 import Profile from "./pages/Profile";
+import Header from "./components/Headers";
+import Admin from "./pages/Admin";
 
 function App() {
   return (
     <BrowserRouter>
-    <Header />
+      <Header />
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/explore" element={<Explore />} />
         <Route path="/profile" element={<Profile />} />
+        <Route path="/admin" element={<Admin/>} />
       </Routes>
     </BrowserRouter>
   );
