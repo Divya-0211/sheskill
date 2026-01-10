@@ -48,6 +48,15 @@ To empower women by giving them a platform to share their skills, connect safely
 - Added hover effects and consistent color theme
 - Improved overall UI to give app-like experience
 
+## Day 8 – Admin Dashboard
+- Created Admin Dashboard for moderation and safety
+- Admin can monitor users, talent posts, and reports
+- Designed clean admin UI using React components
+- Integrated AI-generated cinematic intro videoon Home page
+- Video represents transformation of women gaining confidence through SheSkill
+- Focused on safety, empowerment, and responsible community building
+
+
 
 
 ## 🔮 Future Enhancements
