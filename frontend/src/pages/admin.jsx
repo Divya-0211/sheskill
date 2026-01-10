@@ -1,16 +1,25 @@
 import React from "react";
 
-function Admin(){
+const Admin= () => {
     return (
-        <div style={{ padding:"2rem"}}>
-        <h2>Admin Dashboard</h2>
-        <p>Manage users and ensure platform safety.</p>
+        <div className="admin">
+            <h2>Admin Dashboard</h2>
 
-        <ul>
-        <li>Approve new talent profiles</li>
-        <li>Remove reported accounts</li>
-        <li>Feature top woment talents</li>
-        </ul>
+            <div className="admin-cards">
+                <div className="admin-card">
+                    <h3>Total Users</h3>
+                    <p>128</p>
+                </div>
+
+                <div className="admin-card">
+                    <h3>Talent Posts</h3>
+                    <p>54</p>
+                </div>
+                <div className="admin-card">
+                    <h3>Reports</h3>
+                    <p>2 pending</p>
+                </div>
+            </div>
         </div>
     );
 }
